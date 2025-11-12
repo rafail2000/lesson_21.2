@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="generator" content="Hugo 0.88.1">
+    <title>Контакты</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+
+        .sidebar {
+            min-height: 100vh;
+            height: 100%;
+        }
+
+        .main-content {
+            min-height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Боковая панель -->
+            <div class="col-12 col-md-3 col-lg-2 px-0">
+                <main>
+                    <div class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark sidebar">
+                        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                            <svg class="bi me-2" width="40" height="32">
+                                <use xlink:href="#bootstrap"/>
+                            </svg>
+                            <span class="fs-4">В меню</span>
+                        </a>
+                        <hr>
+                        <ul class="nav nav-pills flex-column mb-auto">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link active" aria-current="page">
+                                    <svg class="bi me-2" width="16" height="16">
+                                        <use xlink:href="#home"/>
+                                    </svg>
+                                    Главная
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav-link text-white">
+                                    <svg class="bi me-2" width="16" height="16">
+                                        <use xlink:href="#speedometer2"/>
+                                    </svg>
+                                    Категории
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav-link text-white">
+                                    <svg class="bi me-2" width="16" height="16">
+                                        <use xlink:href="#table"/>
+                                    </svg>
+                                    Заказы
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav-link text-white">
+                                    <svg class="bi me-2" width="16" height="16">
+                                        <use xlink:href="#grid"/>
+                                    </svg>
+                                    Контакты
+                                </a>
+                            </li>
+                        </ul>
+                        <hr>
+
+                        <!-- Информационный блок -->
+                        <div class="text-muted small mb-3">
+                            10 users included<br>
+                            Email support
+                        </div>
+
+                        <!-- Dropdown пользователя -->
+                        <div class="dropdown">
+                            <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle"
+                               id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+                                <strong>Пользователь ▼</strong>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark text-small shadow" aria-labelledby="dropdownUser1">
+                                <li><a class="dropdown-item" href="#">Профиль</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Выйти</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </main>
+            </div>
+
+            <!-- Основной контент -->
+            <div class="col-12 col-md-9 col-lg-10 main-content">
+                <!-- SVG символы (упрощенные) -->
+                <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+                    <symbol id="check2" viewBox="0 0 16 16">
+                        <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                    </symbol>
+                </svg>
+
+                <!-- Заголовок каталога -->
+                <section class="py-5 text-center container">
+                    <div class="row py-lg-5">
+                        <div class="col-lg-6 col-md-8 mx-auto">
+                            <h1 class="fw-light">Контакты</h1>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Карточки товаров -->
+                <div class="album py-4 bg-body-tertiary">
+                    <div class="container">
+                        <div class="row row-cols-1 row-cols-sm-2 g-22">
+                            <!-- Карточка 1 -->
+                            <div class="col">
+                                 <div class="card ">
+                                      <div class="card-body">
+                                          <form>
+                                              <h6 class="mb-3">Имя</h6>
+                                              <div class="mb-3">
+                                                  <input type="text" class="form-control">
+                                              </div>
+                                              <h6 class="mb-3">Почта</h6>
+                                              <div class="mb-3">
+                                                  <input type="email" class="form-control">
+                                              </div>
+                                              <h6 class="mb-3">Сообщение</h6>
+                                              <div class="mb-3">
+                                                  <textarea class="form-control" rows="3"></textarea>
+                                              </div>
+                                              <button type="submit" class="btn btn-primary w-100">Отправить</button>
+                                          </form>
+                                      </div>
+                                </div>
+                            </div>
+
+                            <!-- Карточка 2 -->
+                            <div class="col">
+                                <div class="card ">
+                                      <div class="card-body">
+                                          <form>
+                                              <h6 class="mb-3">Наши контакты</h6>
+                                              <p class="lead text-muted">Способов связаться с нами не существует:(</p>
+                                          </form>
+                                      </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JavaScript (ТОЛЬКО ОДИН РАЗ) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
